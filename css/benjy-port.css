@@ -69,6 +69,10 @@ strong {
     font-weight: normal;
 }
 
+.skill-thumb strong {
+    color: #000;
+}
+
 p {
     color: #c0c0c0;
     font-size: 16px;
@@ -388,7 +392,7 @@ h1.fadeInUp {
 -----------------------------------------*/
 
 #about .about-img {
-    background: url('../images/bukola2.jpeg') no-repeat;
+    background: url('../images/bukola2.JPG') no-repeat;
 }
 
 #about .about-thumb,
