@@ -1,5 +1,5 @@
 body {
-    background: #ffffff;
+    background: #ffff;
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -52,7 +52,7 @@ h3 {
 }
 
 h4 {
-    color: #999;
+    color: #fff;
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -65,12 +65,12 @@ h5 {
 }
 
 strong {
-    color: #232B2B;
+    color: #E3AE57;
     font-weight: normal;
 }
 
 p {
-    color: #888;
+    color: #c0c0c0;
     font-size: 16px;
     font-weight: 300;
     line-height: 28px;
@@ -81,7 +81,7 @@ p {
     background-color: transparent;
     border: 3px solid #232B2B;
     border-radius: 100px;
-    color: #232B2B;
+    color: #E3AE57;
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1.6px;
@@ -94,7 +94,7 @@ p {
 .section-btn:hover {
     background: #E3AE57;
     border-color: transparent;
-    color: #ffffff;
+    color: #000000;
 }
 
 .btn-success:focus {
@@ -351,7 +351,7 @@ a:focus {
 }
 
 #home .col-md-6 {
-    background: #f1e2d7;
+    background: #000000;
     /* light blue color: #c3eafd; */
     padding-right: 0;
     padding-left: 0;
@@ -376,6 +376,10 @@ a:focus {
     align-items: center;
     height: 100vh;
     padding: 0 45px 0 45px;
+}
+
+h1.fadeInUp {
+    color: #8f8f8f;
 }
 
 
@@ -812,4 +816,8 @@ footer {
     to {
         opacity: 1
     }
+}
+
+body {
+    font-family: 'Electrolize', sans-serif;
 }
